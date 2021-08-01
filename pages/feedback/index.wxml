@@ -1,0 +1,14 @@
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange" >
+
+<view>
+		<view class="content">
+			<image src="../../static/5.jpeg" mode=""></image>
+			<view class="phone" bindtap="call">
+				联系电话：15361702874(点击拨打)
+			</view>
+			<text>联系地址:广东省东莞市Tigger</text>
+			<map class="map" latitude="{{latitude}}"  longitude="{{longitude}}" scale="{{scale}}" markers="{{markers}}"></map>
+		</view>
+		
+	</view>
+</Tabs>
